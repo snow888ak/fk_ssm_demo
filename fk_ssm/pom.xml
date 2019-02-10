@@ -9,6 +9,8 @@
   <version>1.0-SNAPSHOT</version>
   <modules>
     <module>cpt2_hello_ssm</module>
+      <module>cpt3_annotation</module>
+    <module>base_core</module>
   </modules>
   <packaging>pom</packaging>
 
@@ -24,10 +26,9 @@
 
   <dependencies>
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.11</version>
-      <scope>test</scope>
+      <groupId>com.kezhong1986</groupId>
+      <artifactId>base_core</artifactId>
+      <version>1.0-SNAPSHOT</version>
     </dependency>
   </dependencies>
 
